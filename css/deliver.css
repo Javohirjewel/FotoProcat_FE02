@@ -1,0 +1,23 @@
+.deliver {
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 400;
+}
+.deliver .deliver_cards {
+  padding: 44px 0;
+  display: flex;
+  gap: 35px;
+  width: 1110px;
+  margin: 0 auto;
+}
+.deliver .deliver_cards .card {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+.deliver .deliver_cards .card img {
+  width: 32px;
+  height: 32px;
+}/*# sourceMappingURL=deliver.css.map */

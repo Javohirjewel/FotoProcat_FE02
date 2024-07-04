@@ -1,0 +1,607 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clazz {
+  font-family: "Playwrite MX";
+}
+
+:root {
+  --font-family: "Ubuntu", sans-serif;
+  --second-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.power {
+  padding: 56px 0;
+}
+.power .power_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+.power .power_title .power_logo1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #60b021;
+}
+.power .power_title .power_logo2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+}
+.power .power_cards {
+  display: flex;
+  gap: 26px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27px;
+}
+.power .power_cards .power_card {
+  width: 358px;
+  border: 1px solid #efefef;
+  padding: 26px 0 21px;
+  font-family: var(--font-family);
+}
+.power .power_cards .power_card .img {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 33px;
+  display: flex;
+  justify-content: center;
+}
+.power .power_cards .power_card .img .img_block {
+  position: absolute;
+  top: 0;
+  right: 21px;
+  width: max-content;
+}
+.power .power_cards .power_card .img .img_block .img2 {
+  margin-top: 18px;
+}
+.power .power_cards .power_card .img img {
+  width: 200px;
+  margin: 0 auto;
+}
+.power .power_cards .power_card .card_title {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 162%;
+}
+.power .power_cards .power_card .card_title p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #75758a;
+}
+.power .power_cards .power_card .card_item {
+  display: flex;
+}
+.power .power_cards .power_card .card_item .item_card {
+  border: 1px solid #efefef;
+  width: 91px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+}
+.power .power_cards .power_card .card_item .item_card p span {
+  font-weight: 400;
+  color: black;
+  text-decoration: line-through;
+}
+.power .power_cards .power_card .card_item .item_card span {
+  font-weight: 400;
+  color: #75758a;
+}
+.power .power_cards .power_card .card_buttons {
+  display: flex;
+  width: max-content;
+  margin: 0 auto;
+  gap: 20px;
+  margin-top: 20px;
+}
+.power .power_cards .power_card .card_buttons div {
+  border-radius: 100px;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+}
+.power .power_cards .power_card .card_buttons .green {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+  color: white;
+  background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+}
+
+.fotop {
+  padding: 45px 0 100px 0;
+}
+.fotop .fotop_info {
+  text-align: center;
+  margin-top: 93px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+}
+.fotop .fotop_info span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  color: #60b021;
+}
+.fotop .foto_title {
+  width: 570px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 186%;
+  text-align: center;
+  color: #75758a;
+}
+.fotop .foto_title span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 186%;
+  text-align: center;
+  color: #000000;
+}
+.fotop .foto_navbar {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 17px;
+  margin-bottom: 45px;
+}
+.fotop .foto_navbar .foto_card1 {
+  width: max-content;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 100px;
+  padding: 17px 56px 16px 56px;
+  background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+}
+.fotop .foto_navbar .foto_card2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  border-radius: 100px;
+  width: 260px;
+  height: 50px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  padding: 17px 43px 16px 45px;
+}
+.fotop .foto__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 350px);
+  gap: 30px;
+}
+.fotop .foto__cards .card {
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/photo (5).png");
+  position: relative;
+}
+.fotop .foto__cards .card .info {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+.fotop .foto__cards .card .info .inf {
+  background-color: white;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  padding: 12px 14px;
+  width: max-content;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+}
+.fotop .foto__cards .card:nth-child(2) {
+  background-image: url("../img/photo (6).png");
+}
+.fotop .foto__cards .card:nth-child(3) {
+  background-image: url("../img/photo (7).png");
+}
+.fotop .foto__cards .card4:nth-child(4) {
+  background-image: url("../img/photo (3).png");
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.fotop .foto__cards .card:nth-child(5) {
+  background-image: url("../img/photo (4).png");
+}
+
+.doxod {
+  background: #f5f5f5;
+  width: 100%;
+  text-align: center;
+  padding: 96px 0 100px 0;
+}
+.doxod .doxod_title .doxod_info {
+  margin-top: 96px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 24px;
+  margin-top: 96px;
+}
+.doxod .doxod_title .doxod_info span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #60b021;
+}
+.doxod .doxod_title .doxod_info1 {
+  width: 470px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 186%;
+  text-align: center;
+  color: #75758a;
+}
+.doxod .doxod_logo_info {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 37px;
+}
+.doxod .doxod_logo_info .doxod_card {
+  background: #fff;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 255px;
+  padding: 25px 30px;
+  height: 155px;
+  position: relative;
+  font-family: var(--font-family);
+}
+.doxod .doxod_logo_info .doxod_card img {
+  position: absolute;
+  bottom: 28px;
+  right: 30px;
+}
+.doxod .doxod_card1 .doxod_cards {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  border-radius: 100px;
+  width: 300px;
+  padding: 17px 38px;
+  background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.novost .container .novost_logo {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  margin-top: 96px;
+}
+.novost .container .novost_logo span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 111%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #60b021;
+  margin-right: 5px;
+}
+.novost .container .novost_navbar {
+  margin-top: 17px;
+  display: flex;
+  gap: 30px;
+}
+.novost .container .novost_navbar .novost_cards .novost_info {
+  border: 1px solid #efefef;
+  padding: 21px 25px;
+  width: 350px;
+}
+.novost .container .novost_navbar .novost_cards .novost_info .novost_logo1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #75758a;
+}
+.novost .container .novost_navbar .novost_cards .novost_info .novost_logo2 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+}
+.novost .container .novost_navbar .novost_cards .novost_info .novost_logo3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 186%;
+  color: #75758a;
+  width: 300px;
+}
+.novost .container .novost_navbar .novost_cards .novost_img img {
+  width: 350px;
+  margin: 0 auto;
+}
+.novost .container .novost_aytim {
+  border-radius: 100px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+  width: max-content;
+  margin: 0 auto;
+  padding: 17px 49px 16px 50px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
+.mep {
+  background-image: url(../img/for\ map\ \(1\).png);
+  width: 100%;
+}
+.mep .container {
+  padding: 108px 0 102px;
+}
+.mep .container .mep_navbar {
+  display: flex;
+  gap: 30px;
+}
+.mep .container .mep_navbar .mep_cards {
+  width: 255px;
+  background-color: white;
+  text-align: center;
+  padding: 25px 81px 33px 30px;
+}
+.mep .container .mep_navbar .mep_cards .mep_logo1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000;
+  margin-bottom: 18px;
+}
+.mep .container .mep_navbar .mep_cards .mep_logo2 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #75758a;
+  margin-bottom: 10px;
+  width: 130px;
+  text-align: center;
+}
+.mep .container .mep_navbar .mep_cards .mep_logo3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #60b021;
+}
+
+.footer {
+  background: #515668;
+}
+.footer .container .footer_navbar {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.footer .container .footer_navbar .footer_cards {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.footer .container .footer_navbar .footer_cards .fotop_info2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.footer .container .footer_navbar .footer_cards .fotop_info2 span {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  color: #8ee901;
+}
+.footer .container .footer_navbar .footer_cards .fotop_info2 span p {
+  color: white;
+}
+.footer .container .footer_navbar .footer_aytim .fotop_input input {
+  width: 475px;
+  height: 47px;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #75758a;
+}
+.footer .container .footer_navbar .footer_aytim .footer_info {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background: #4f9c2c;
+  text-align: center;
+  width: 160px;
+  height: 47px;
+  padding: 10px 0 10px 0;
+}
+.footer .container .footer_navbar .footer_cool {
+  display: flex;
+  gap: 10px;
+}
+.footer .container .footer_navbar .footer_cool .cool_title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: #8ee901;
+}
+
+.fotop_24 {
+  display: flex;
+}
+.fotop_24 .container .footer_kansovka {
+  display: flex;
+  gap: 30px;
+}
+.fotop_24 .container .footer_kansovka .footer_info1 .fotop_cards1 {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 124%;
+  color: #000;
+  margin-top: 25px;
+}
+.fotop_24 .container .footer_kansovka .footer_info1 .fotop_cards1 span {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 21px;
+  line-height: 124%;
+  background: linear-gradient(270deg, #8ee901 0%, #4f9c2c 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fotop_24 .container .footer_kansovka .footer_info1 .fotop_cards2 {
+  font-family: var(--font-family);
+  font-weight: 500px;
+  line-height: 125%;
+  color: #000;
+  width: 350px;
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
+.fotop_24 .container .footer_kansovka .footer_info1 .fotop_cards3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 125%;
+  color: #75758a;
+}
+.fotop_24 .container .footer_kansovka .footer_info1 .fotop_cards3 span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18pxpx;
+  line-height: 143%;
+  color: #75758a;
+}
+.fotop_24 .container .footer_kansovka .footer_info2 {
+  margin-top: 30px;
+}
+.fotop_24 .container .footer_kansovka .footer_info2 .fotop_info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.fotop_24 .container .footer_kansovka .footer_info2 .fotop_info .fotop_cards5 img {
+  width: 32px;
+  margin-bottom: 53px;
+}
+.fotop_24 .container .footer_kansovka .footer_info2 .footer_logo1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 167%;
+  color: #75758a;
+}
+.fotop_24 .container .footer_kansovka .footer_info3 {
+  margin-top: 15px;
+}
+.fotop_24 .container .footer_kansovka .footer_info3 .footer_moskva {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 162%;
+  color: #000;
+  margin-bottom: 15px;
+}
+.fotop_24 .container .footer_kansovka .footer_info3 .ikkinchi_p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: #000;
+}
+.fotop_24 .container .footer_kansovka .fotop_visa {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+}
+.fotop_24 .container .footer_kansovka .fotop_visa .visa_img1 {
+  margin-top: 15px;
+}/*# sourceMappingURL=style.css.map */

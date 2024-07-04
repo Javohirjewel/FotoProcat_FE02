@@ -1,0 +1,674 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clazz{
+    font-family: "Playwrite MX";
+}
+:root {
+    --font-family: "Ubuntu", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+
+.power{
+    padding: 56px 0;
+   .power_title{
+    // width: 358px;
+    // height: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    // border: 1px solid #efefef;
+    .power_logo1{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #60b021;
+      
+
+    }
+    .power_logo2{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000000;
+     }
+     
+   }
+   .power_cards{
+    display: flex;
+    gap: 26px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+    .power_card{
+        width: 358px;
+        border: 1px solid #efefef;
+        padding: 26px 0 21px;
+        font-family: var(--font-family);
+        .img{
+            position: relative;
+            margin: 0 auto;
+            margin-bottom: 33px;
+            display: flex;
+            justify-content: center;
+            .img_block{
+                position: absolute;
+                top: 0;
+                right: 21px;
+                width: max-content;
+                .img2{
+                    margin-top: 18px;
+                }
+            }
+            img{
+                width: 200px;
+                margin: 0 auto;
+               
+            }
+        }
+        .card_title{
+            font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+            line-height: 162%;
+            p{
+                font-weight: 400;
+                font-size: 14px;
+                color: #75758a;
+            }
+        }
+        .card_item{
+            display: flex;
+            .item_card{
+                border: 1px solid #efefef;
+                width: 91px;
+                height: 70px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 143%;
+                p{
+                    span{
+                        font-weight: 400;
+                        color: black;
+                        text-decoration: line-through;
+                    }
+                }
+                span{
+                    font-weight: 400;
+                    color: #75758a;
+                }
+            }
+        }
+        .card_buttons{
+            display: flex;
+            width: max-content;
+            margin: 0 auto;
+            gap: 20px;
+            margin-top: 20px;
+            div{
+                border-radius: 100px;
+                width: 140px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 700;
+                box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+            }
+            .green{
+                box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+                color: white;
+                background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+            }
+        }
+    }
+   }
+   
+}
+.fotop{
+    padding: 45px 0 100px 0;
+    .fotop_info{
+        text-align: center;
+        margin-top: 93px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        span{
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 111%;
+            text-transform: uppercase;
+            color: #60b021;
+        }
+       
+    }
+    .foto_title{
+        width: 570px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 24px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 186%;
+        text-align: center;
+        color: #75758a;
+        span{
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 186%;
+            text-align: center;
+            color: #000000;
+        }
+    }
+   .foto_navbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    margin-bottom: 45px;
+    .foto_card1{
+        width: max-content;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        border-radius: 100px;
+        padding:17px 56px 16px 56px;
+        background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+    }
+    .foto_card2{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000;
+        border-radius: 100px;
+        width: 260px;
+        height: 50px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+        background: #fff;
+        padding: 17px 43px 16px 45px;
+    }
+   }
+   .foto__cards{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(2, 350px);
+    gap: 30px;
+    .card{
+        background-size: cover;
+        background-position: center;
+        background-image: url('../img/photo\ \(5\).png');
+        position: relative;
+        .info{
+            position: absolute;
+            bottom: 25px;
+            left: 25px;
+            .inf{
+                background-color: white;
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 16px;
+                color: #000;
+                padding: 12px 14px;
+                width: max-content;
+                box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+            }
+        }
+    }
+ 
+    .card:nth-child(2){
+        background-image: url('../img/photo\ \(6\).png');
+    }
+    .card:nth-child(3){
+        background-image: url('../img/photo\ \(7\).png');
+    }
+    .card4:nth-child(4){
+        background-image: url('../img/photo\ \(3\).png');
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .card:nth-child(5){
+        background-image: url('../img/photo\ \(4\).png');
+    }
+    
+   }
+}
+.doxod{
+    background: #f5f5f5;
+    width: 100%;
+    text-align: center;
+    padding: 96px 0 100px 0;
+       .doxod_title{
+        .doxod_info{
+        margin-top: 96px;
+        text-align: center;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 111%;
+        text-transform: uppercase;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 24px;
+        margin-top: 96px;
+        span{
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 111%;
+            text-transform: uppercase;
+            text-align: center;
+            color: #60b021;
+        }
+       
+        }
+        .doxod_info1{
+            width: 470px;
+            text-align: center;
+            margin: 0 auto;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 186%;
+            text-align: center;
+            color: #75758a;
+   
+}
+   }
+   
+  .doxod_logo_info{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 37px;
+        .doxod_card{
+            background: #fff;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
+            text-align: center;
+            width: 255px;
+            padding: 25px 30px;
+            height: 155px;
+            position: relative;
+            font-family: var(--font-family);
+            img{
+                position: absolute;
+                bottom: 28px;
+                right: 30px;
+            }
+        }
+      
+       
+  }
+  .doxod_card1{
+    .doxod_cards{
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        border-radius: 100px;
+        width: 300px;
+        padding: 17px 38px;
+        background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 100px;
+    }
+  }
+}
+.novost{
+    .container{
+        .novost_logo{
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 111%;
+            text-transform: uppercase;
+            text-align: center;
+            color: #000000;
+            margin-top: 96px;
+            span{
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 111%;
+                text-transform: uppercase;
+                text-align: center;
+                color: #60b021;
+                margin-right: 5px;
+            }
+        }
+      .novost_navbar{
+        margin-top: 17px;
+        display: flex;
+        gap: 30px;
+        .novost_cards{
+            .novost_info{
+                border: 1px solid #efefef;
+                padding: 21px 25px;
+                width: 350px;
+                .novost_logo1{
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 143%;
+                    color: #75758a;
+                }
+                .novost_logo2{
+                    font-family: var(--font-family);
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 125%;
+                    color: #000;
+                }
+                .novost_logo3{
+                    font-family: var(--font-family);
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 186%;
+                    color: #75758a;
+                    width: 300px;
+                }
+            
+            }
+            .novost_img{
+                img{
+                    width: 350px;
+                    margin: 0 auto;
+                    
+                }
+                
+            }
+          }
+      }
+      .novost_aytim{
+        border-radius: 100px;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(180deg, #8ee902 0%, #4f9c2c 100%);
+        width: max-content;
+        margin: 0 auto;
+        padding:  17px 49px 16px 50px ;
+        text-align: center;
+        margin-top: 40px ;
+        margin-bottom: 90px;
+      }
+    }
+}
+.mep{
+    background-image: url(../img/for\ map\ \(1\).png);
+    width: 100%;
+    // margin-bottom: 102px;
+    .container{
+        padding: 108px 0 102px ;
+      .mep_navbar{
+        display: flex;
+        gap: 30px;
+       
+        .mep_cards{
+            width: 255px;
+            background-color: white;
+            text-align: center;
+            padding: 25px 81px 33px 30px;
+            .mep_logo1{
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 125%;
+                color: #000;
+                margin-bottom: 18px;
+            }
+            .mep_logo2{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 14px;
+                color: #75758a;
+                margin-bottom: 10px;
+                width: 130px;
+                text-align: center;
+            }
+            .mep_logo3{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 14px;
+                text-decoration: underline;
+                text-decoration-skip-ink: none;
+                color: #60b021;
+                
+            }
+        }
+      }
+    //   .mep_aytim{
+    //     .mep_info_1{
+    //         background-color: brown;
+    //         width: 400px;
+    //         height: 50px;
+    //     }
+      }
+}
+.footer{
+    background: #515668;
+    .container{
+        .footer_navbar{
+            height: 72px;
+            display: flex;
+            align-items: center;
+            gap: 45px;
+            .footer_cards{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                .fotop_info1{
+                    svg{
+
+                    }
+                }
+                .fotop_info2{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    span{
+                        font-family: var(--font-family);
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 125%;
+                        color: #8ee901;
+                        // margin: 0 auto;
+                    p{
+                    color: white;
+
+                    }
+                }
+                }
+            }
+        .footer_aytim{
+            .fotop_input{
+                input{
+                width: 475px;
+                height: 47px;
+                padding: 20px;
+                border: none;
+                outline: none;
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 14px;
+                color: #75758a;
+                }
+            }
+                .footer_info{
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 14px;
+                text-transform: uppercase;
+                text-align: center;
+                color: #fff;
+                background: #4f9c2c;
+                text-align: center;
+                width: 160px;
+                height: 47px;
+                padding: 10px 0 10px 0;
+                }
+        }
+        .footer_cool{
+            display: flex;
+            gap: 10px;
+            .cool_title{
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 16px;
+                color: #8ee901;
+            }
+            
+        }
+        }
+        
+        
+    
+    }
+
+}
+.fotop_24{
+    display: flex;
+   .container{
+    .footer_kansovka{
+        display: flex;
+        gap: 30px;
+        .footer_info1{
+            .fotop_cards1{
+                font-family: var(--second-family);
+                font-weight: 800;
+                font-size: 21px;
+                line-height: 124%;
+                color: #000;
+                margin-top:25px;
+                span{
+                    font-family: var(--second-family);
+                    font-weight: 800;
+                    font-size: 21px;
+                    line-height: 124%;
+                    background: linear-gradient(270deg, #8ee901 0%, #4f9c2c 100%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+            }
+        }
+        .fotop_cards2{
+            font-family: var(--font-family);
+            font-weight: 500px;
+            line-height: 125%;
+            color: #000;
+            width: 350px;
+            margin-top: 20px;
+            margin-bottom: 18px ;
+        }
+        .fotop_cards3{
+            font-family: var(--font-family);
+            font-weight: 400;
+            line-height: 125%;
+            color: #75758a;
+            span{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 18pxpx;
+                line-height: 143%;
+                color: #75758a;
+            }
+
+        }
+        }
+        .footer_info2{
+            margin-top:30px;
+
+            .fotop_info{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                .fotop_cards5{
+                    img{
+                        width: 32px;
+                        margin-bottom: 53px
+                    }
+                }
+            }
+            .footer_logo1{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 167%;
+                color: #75758a;
+            }
+        }
+        .footer_info3{
+            margin-top: 15px;
+            .footer_moskva{
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 162%;
+                color: #000;
+                margin-bottom: 15px;
+                
+            }
+            .ikkinchi_p{
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 143%;
+                color: #000;
+            }
+        }
+        .fotop_visa{
+        display: flex;
+        gap: 15px;
+        margin-top: 25px;
+        .visa_img1{
+            margin-top: 15px;
+        }
+    }
+    }
+   }
+
+
+}
+
+
